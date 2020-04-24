@@ -1,0 +1,208 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Shopping in site",
+    "line": 1,
+    "id": "shopping-in-site",
+    "tags": [],
+    "uri": "features\\shopping_site.feature",
+    "elements": [
+      {
+        "id": "shopping-in-site;search-a-product",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Search a product",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I got to Americanas site",
+            "match": {
+              "location": "Zup\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:110"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37766000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "type it \"caixa de bombom garoto\" in search bar",
+            "match": {
+              "location": "Zup\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:110"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18232000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "validate the return of search",
+            "match": {
+              "location": "Zup\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:110"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6490000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "shopping-in-site;include-a-product-on-basket-products",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Include a product on basket products",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "a product \"Bombons Sortidos Garoto Caixa 300 G\" of list returned",
+            "match": {
+              "location": "Zup\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:110"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18038000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "click in buy",
+            "match": {
+              "location": "Zup\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:110"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9583000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "validate the product in basket products",
+            "match": {
+              "location": "Zup\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:110"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11963000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "shopping-in-site;continue-shopping",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Continue shopping",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "I got to a basket products of site Americanas",
+            "match": {
+              "location": "Zup\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:110"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5936000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "click in continue",
+            "match": {
+              "location": "Zup\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:110"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7586000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "view Login",
+            "match": {
+              "location": "Zup\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:110"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5484000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "shopping-in-site;remove-product-of-basket-products",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Remove product of basket products",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "I got to a basket products of site Americanas",
+            "match": {
+              "location": "Zup\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:110"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6256000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "click in remove",
+            "match": {
+              "location": "Zup\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:110"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8021000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "return a basket empty",
+            "match": {
+              "location": "Zup\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:110"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3168000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
